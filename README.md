@@ -15,7 +15,7 @@
 
 ## Evaluation
 
-1. finetune:
+**1. finetune**
 ```
 python few_shot_finetune.py
 ```
@@ -29,7 +29,7 @@ epoch: 4 - acc: 0.884415 - best_test_acc: 0.8976788252013264
 ```
 全量参数对小样本进行finetune，仅1个epoch就收敛了
 
-2. p-tuning
+**2. p-tuning**
 ```
 python few_shot_ptuning.py
 ```
