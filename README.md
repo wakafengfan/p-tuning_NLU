@@ -59,5 +59,6 @@ epoch: 19 - acc: 0.877783 - best_test_acc: 0.8896257697773567
 仅prompt_embed和lstm及mlp去做p-tuning，20个epoch后接近收敛，acc=0.8896，略小于finetun的acc 0.8977
 
 附上苏神结果对比：
+
 <img src="img.png" alt="img" height="25%" width="25%" />
 
