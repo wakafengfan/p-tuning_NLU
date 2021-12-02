@@ -3,7 +3,7 @@
 
 ## Overview
 
-这个小项目是受乐于分享的苏剑林大佬这篇[p-tuning](https://kexue.fm/archives/8295) 文章启发，也实现了个使用P-tuning进行NLU分类的任务，
+受[p-tuning](https://kexue.fm/archives/8295) 文章启发，也实现了个使用P-tuning进行NLU分类的任务，
 思路是一样的，prompt实现方式有不同，这里是将[unused*]的embeddings参数抽取出用于初始化prompt_embed后，再接一个lstm和mlp用于关联各prompt，
 与最初p-tuning提出[《GPT Understands, Too》](https://arxiv.org/abs/2103.10385) 的实现一样，结果显示在**few-shot**上p-tuning非常接近finetune效果。
 
